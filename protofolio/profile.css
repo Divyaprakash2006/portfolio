@@ -1,0 +1,209 @@
+a {
+    text-decoration: none;
+}
+
+#a {
+    width: 200px;
+    height: 600px;
+    border: none;
+    padding: 10px 0 30px 0;
+    border-radius: 10px;
+    background-color: rgba(240, 248, 255, 0.546);
+    box-shadow: 5px 5px 20px black, -5px -5px 20px black;
+    color: blueviolet;
+    position: sticky;
+    top: 1px;
+    margin-top: 30px;
+}
+
+#a:hover {
+    box-shadow: 10px 10px 25px, -10px -10px 25px;
+    transition: cubic-bezier(0.86, 0, 0.07, 1);
+}
+
+#b {
+    width: 120px;
+    height: 120px;
+    margin: 20px 30px 10px 40px;
+    padding: 0 10px 40px 10px;
+    position: relative;
+    bottom: 20px;
+    border-radius: 50%;
+    background: url(image.png) center / cover no-repeat;
+}
+
+#x {
+    margin-left: 60px;
+    margin-bottom: 10px;
+    color: rgb(19, 17, 17);
+    text-decoration: none;
+}
+
+#u {
+    margin-left: 70px;
+    margin-top: 60px;
+    color: rgb(24, 23, 23);
+    text-decoration: none;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(-45deg, rgba(4, 196, 4, 0.546), rgb(186, 11, 186), rgba(0, 0, 0, 0.889), #f19b2a, #2bea81);
+    background-size: 400% 400%;
+    animation: colorAnimation 12s ease-in-out infinite;
+    color: #fff;
+}
+
+@keyframes colorAnimation {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 100%;
+    }
+    75% {
+        background-position: 0% 100%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+@keyframes words {
+    0%, 20% {
+        content: "Frontend Designer";
+    }
+    21%, 40% {
+        content: "Web Designer";
+    }
+    41%, 60% {
+        content: "UI/UX Designer";
+    }
+    61%, 80% {
+        content: "Web Developer";
+    }
+    81%, 100% {
+        content: "Software Tester";
+    }
+}
+
+@keyframes typing {
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    }
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 8px);
+    }
+}
+
+b {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    margin-left: 600px;
+    position: relative;
+    font-weight: bolder;
+    top: 200px;
+    color: whitesmoke;
+}
+
+#o {
+    margin-left: 60px;
+    color: rgb(9, 9, 9);
+    margin-top: 30px;
+    text-decoration: none;
+}
+
+.display-1 {
+    margin-left: 600px;
+    margin-bottom: 900px;
+    position: relative;
+    bottom: 400px;
+    right: 50px;
+    color: antiquewhite;
+    box-shadow: 10px 10px 25px violet, -10px -10px 25px;
+}
+
+.display-1:hover {
+    box-shadow: 10px 10px 25px violet, -10px -10px 25px;
+    transition: cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+#PROFILE {
+    color: aliceblue;
+    border: initial;
+    text-align: center;
+    margin-left: 400px;
+    margin-bottom: 100px;
+    position: relative;
+    bottom: 500px;
+    width: 500px;
+    height: 300px;
+    text-decoration: none;
+}
+
+#r, #m {
+    text-decoration: none;
+}
+
+.progress1 {
+    margin-left: 500px;
+    margin-right: 500px;
+    margin-bottom: 400px;
+    border: groove;
+    width: 100px;
+    height: 100px;
+    border-radius: 10px;
+    backdrop-filter: blur(20px);
+}
+
+#s {
+    margin-left: 500px;
+    margin-right: 500px;
+    color: antiquewhite;
+    font-size: x-large;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+#kk {
+    margin-left: 500px;
+    color: antiquewhite;
+}
+
+#z {
+    margin-left: 600px;
+    color: aliceblue;
+    margin-top: 600px;
+    position: relative;
+    top: 50px;
+}
+
+.MY-SKILL {
+    position: relative;
+    bottom: 500px;
+}
+
+#n {
+    position: relative;
+    bottom: 420px;
+}
+
+ul {
+    position: relative;
+    bottom: 415px;
+}
+
+label {
+    color: black;
+    font-size: x-large;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+}
+
+.Achieve {
+    border: groove;
+    width: 400px;
+    margin-right: 100px;
+    height: 200px;
+}
